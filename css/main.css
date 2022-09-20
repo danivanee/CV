@@ -1390,8 +1390,8 @@ textarea.form-control, textarea.form-control:focus {
   table-layout: fixed;
   width: 100%;
   border: 2px solid #444;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -1402,10 +1402,9 @@ textarea.form-control, textarea.form-control:focus {
 .certi-logo {
   display: table-cell;
   width: 270px;
-  height: 240%;
+  height: 270%;
   background-color: #444;
   padding: 30px;
-  
   vertical-align: middle;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -1419,7 +1418,7 @@ textarea.form-control, textarea.form-control:focus {
 .certi-content {
   display: table-cell;
   width: 100%;
-  padding: 20px 25px;
+  padding: 20px 20px;
   vertical-align: middle;
 }
 
