@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/contacto.css" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
   </head>
@@ -1059,51 +1060,43 @@
                         width="800" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                       </div>
-                      <div class="block-title">
-                        <h3>How Can I <span>Help You?</span></h3>
-                      </div>
+                      
 
-                      <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
-
-                        <div class="messages"></div>
-
-                        <div class="controls two-columns">
-                          <div class="fields clearfix">
-                            <div class="left-column">
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
-                                <label>Full Name</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                                <label>Email Address</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
-
-                              <div class="form-group form-group-with-icon">
-                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
-                                <label>Subject</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
+                      <div class="login_form">
+                        <form action="#" class="form">
+                            <h1 class="form_title"> How Can I help you </h1>
+                
+                            <div class="form_div">
+                                <input type="text" class="form_input" placeholder=" ">
+                                <label class="form_label">Email</label>
                             </div>
-                            <div class="right-column">
-                              <div class="form-group form-group-with-icon">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
-                                <label>Message</label>
-                                <div class="form-control-border"></div>
-                                <div class="help-block with-errors"></div>
-                              </div>
+                
+                            <div class="form_div">
+                                <input type="text" class="form_input" placeholder=" ">
+                                <label class="form_label">Message</label>
                             </div>
-                          </div>
+                
+                            <div id="captcha" class="form_div">
+                                <div class="preview"></div>
+                                <div class="captcha_form"> 
+                                    <input type="text" id="captcha_form" class="form_input_captcha" placeholder=" ">
+                                    <label class="form_label_captcha">Enter Captcha</label>
+                                    <button class="captcha_refersh"><label class="captcha_refresh">refresh</label>
+                                       
+                                    </button>
+                                </div>
+                            </div>
+                
+                            <input type="submit" class="form_button" value="Send">
+                        </form>
+                    </div>
+                      
 
-                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
-      
-                          <input type="submit" class="button btn-send" value="Send message">
+
+
+
+
+
                         </div>
                       </form>
                     </div>
@@ -1122,15 +1115,14 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/animating.js"></script>
-
     <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-
     <script src='js/perfect-scrollbar.min.js'></script>
     <script src='js/jquery.shuffle.min.js'></script>
     <script src='js/masonry.pkgd.min.js'></script>
     <script src='js/owl.carousel.min.js'></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/contacto.js"></script>
+
 
     <script src="js/jquery.googlemap.js"></script>
     <script src="js/validator.js"></script>
