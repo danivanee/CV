@@ -10,14 +10,11 @@ async function getData(){
     const data = await fetch(url);
     const json = await data.json();
     
-    
     //console.log(json);
     //console.log(json.value);
     parrafo.textContent = json.value;
     return parrafo.textContent
 
-    
-    
 }
 catch(e){
     console.error(e);
